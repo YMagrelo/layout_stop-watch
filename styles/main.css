@@ -10,7 +10,6 @@
     position: absolute;
     top: calc(50% - 4px);
     left: 50%;
-    z-index: 1;
     width: 40%;
     height: 8px;
     background-color: #2b8cfa;
@@ -24,6 +23,7 @@
     position: absolute;
     top: calc(50% - 5px);
     left: 50%;
+    z-index: -1;
     width: 30%;
     height: 10px;
     background-color: lightcoral;
@@ -50,7 +50,6 @@
             transform: rotate(270deg); } }
   .stopwatch__axis {
     position: absolute;
-    z-index: 1;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
