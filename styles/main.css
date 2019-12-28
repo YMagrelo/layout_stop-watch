@@ -5,6 +5,19 @@
   height: 500px;
   border: 0.5px solid gray;
   border-radius: 50%; }
+  .stopwatch__seconds {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    width: 40%;
+    height: 0.5px;
+    background-color: gray;
+    border-radius: 4px;
+    -webkit-animation: arrow 60s linear infinite;
+            animation: arrow 60s linear infinite;
+    -webkit-transform-origin: left;
+            transform-origin: left; }
   .stopwatch::before {
     content: "";
     position: absolute;
@@ -14,8 +27,8 @@
     height: 8px;
     background-color: #2b8cfa;
     border-radius: 4px;
-    -webkit-animation: arrow 60s linear infinite;
-            animation: arrow 60s linear infinite;
+    -webkit-animation: arrow 360s linear infinite;
+            animation: arrow 360s linear infinite;
     -webkit-transform-origin: left;
             transform-origin: left; }
   .stopwatch::after {
@@ -28,8 +41,8 @@
     height: 10px;
     background-color: lightcoral;
     border-radius: 5px;
-    -webkit-animation: arrow 360s linear infinite;
-            animation: arrow 360s linear infinite;
+    -webkit-animation: arrow 3600s linear infinite;
+            animation: arrow 3600s linear infinite;
     -webkit-transform-origin: left;
             transform-origin: left; }
 
