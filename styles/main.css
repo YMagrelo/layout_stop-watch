@@ -13,7 +13,6 @@
     width: 40%;
     height: 0.5px;
     background-color: gray;
-    border-radius: 4px;
     -webkit-animation: arrow 60s linear infinite;
             animation: arrow 60s linear infinite;
     -webkit-transform-origin: left;
