@@ -26,8 +26,8 @@
     height: 8px;
     background-color: #2b8cfa;
     border-radius: 4px;
-    -webkit-animation: arrow 360s linear infinite;
-            animation: arrow 360s linear infinite;
+    -webkit-animation: arrow 3600s linear infinite;
+            animation: arrow 3600s linear infinite;
     -webkit-transform-origin: left;
             transform-origin: left; }
   .stopwatch::after {
@@ -40,8 +40,8 @@
     height: 10px;
     background-color: lightcoral;
     border-radius: 5px;
-    -webkit-animation: arrow 3600s linear infinite;
-            animation: arrow 3600s linear infinite;
+    -webkit-animation: arrow 43200s linear infinite;
+            animation: arrow 43200s linear infinite;
     -webkit-transform-origin: left;
             transform-origin: left; }
 
